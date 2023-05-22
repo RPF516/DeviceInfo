@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_height="150dp"/>
+    <TextView
+        android:id="@+id/ram_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:text="RAM Information"
+        android:layout_below="@+id/textView"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/cpu_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:text="CPU Information"
+        android:layout_below="@+id/ram_text_view"
+        android:layout_centerInParent="true"/>
+
+
+    <TextView
+        android:id="@+id/battery"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:text="CPU Information"
+        android:layout_below="@+id/cpu_text_view"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/accelerometer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:text="CPU Information"
+        android:layout_below="@+id/battery"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/rotationvector"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:text="CPU Information"
+        android:layout_below="@+id/accelerometer"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/gyroscope"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:text="CPU Information"
+        android:layout_below="@+id/rotationvector"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>
+
+
+
+
+
